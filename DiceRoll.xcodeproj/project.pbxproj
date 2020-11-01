@@ -13,6 +13,8 @@
 		EE74AD2D254C430000C33950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE74AD2B254C430000C33950 /* Main.storyboard */; };
 		EE74AD2F254C430200C33950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE74AD2E254C430200C33950 /* Assets.xcassets */; };
 		EE74AD32254C430200C33950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE74AD30254C430200C33950 /* LaunchScreen.storyboard */; };
+		EEF54D8C254CD91C00F08687 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF54D8B254CD91C00F08687 /* RoundButton.swift */; };
+		EEF54D8E254CE61700F08687 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF54D8D254CE61700F08687 /* Dice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EE74AD2E254C430200C33950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE74AD31254C430200C33950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE74AD33254C430200C33950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF54D8B254CD91C00F08687 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		EEF54D8D254CE61700F08687 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				EE74AD25254C430000C33950 /* AppDelegate.swift */,
 				EE74AD27254C430000C33950 /* SceneDelegate.swift */,
 				EE74AD29254C430000C33950 /* ViewController.swift */,
+				EEF54D8B254CD91C00F08687 /* RoundButton.swift */,
 				EE74AD2B254C430000C33950 /* Main.storyboard */,
+				EEF54D8D254CE61700F08687 /* Dice.swift */,
 				EE74AD2E254C430200C33950 /* Assets.xcassets */,
 				EE74AD30254C430200C33950 /* LaunchScreen.storyboard */,
 				EE74AD33254C430200C33950 /* Info.plist */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF54D8C254CD91C00F08687 /* RoundButton.swift in Sources */,
 				EE74AD2A254C430000C33950 /* ViewController.swift in Sources */,
+				EEF54D8E254CE61700F08687 /* Dice.swift in Sources */,
 				EE74AD26254C430000C33950 /* AppDelegate.swift in Sources */,
 				EE74AD28254C430000C33950 /* SceneDelegate.swift in Sources */,
 			);
